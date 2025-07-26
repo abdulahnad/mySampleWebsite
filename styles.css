@@ -1,0 +1,144 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.head {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#head-p {
+    font-size: 1.2rem;
+    opacity: 0.55;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigation */
+.contents {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.contents li a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.contents li a:hover {
+    background-color: white;
+    color: #4e54c8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Layout */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+/* Left Sidebar */
+.left {
+    width: 20%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.left ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+/* Middle Content */
+.mid {
+    width: 55%;
+    height: 100vp;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.mid h2 {
+    margin-bottom: 10px;
+    color: #4e54c8;
+}
+
+.mid p {
+    margin-bottom: 20px;
+}
+
+/* Right Sidebar */
+.right {
+    width: 20%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.right h4 {
+    color: #4e54c8;
+    margin-bottom: 10px;
+}
+
+.right p1 {
+    display: block;
+    font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+    background: #ffffff;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #4e54c8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
